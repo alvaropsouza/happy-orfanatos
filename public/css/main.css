@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+
+    color: white;
+}
+
+:root {
+    /* 62.5% do tamanho padrão natural user agent, que é de 16px */
+    font-size: 62.5%;
+}
+
+body, input, button, textarea {
+    font: 400 1.8rem/1 'Nunito', sans-serif;
+}
+
+#page-landing {
+    background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
+
+    text-align: center;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+}
+
+#container {
+    margin: auto;
+}
+
+.location, h1, .visit p {
+    height: 16vh;
+}
