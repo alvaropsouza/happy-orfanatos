@@ -116,26 +116,3 @@ main {
     border-radius: 20px;
     color: #37C77F;
 }
-
-.primary-button {
-    margin-top: 6.4rem;
-    width: 100%;
-    height: 6.4rem;
-    border: none;
-    border-radius: 2rem;
-    cursor: pointer;
-    background: #3cdc8c;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background-color 200ms;
-}
-
-.primary-button:hover {
-    background: #36cf82;
-}
-
-.primary-button img {
-    padding: 1.6rem;
-}
