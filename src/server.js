@@ -17,8 +17,11 @@ server
 .set('views', path.join(__dirname, "views"))
 .set('view engine', 'hbs')
 
-// Criando rota
+// Rotas da aplicação
 .get('/', pages.index)
+.get('/create-orphanage', pages.createOrphanage)
+.get('/orphanage', pages.orphanage)
+.get('/orphanages', pages.orphanages)
 
 // Ligar servidor
 server.listen(5500)
